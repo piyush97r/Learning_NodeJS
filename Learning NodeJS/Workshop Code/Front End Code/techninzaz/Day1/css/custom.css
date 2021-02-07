@@ -1,0 +1,25 @@
+body{
+	background-color: lightgreen;
+}
+
+table tr td {
+	text-align: center;
+}
+
+table thead th {
+	font-family: monospace;
+	color: white;
+	font-size: 25px;
+}
+table thead{
+	background-color: indigo;
+}
+.odd{
+	background-color: #e0dede;
+}
+.even{
+	background-color: #8a8888;
+}
+
+
+

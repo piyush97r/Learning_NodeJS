@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Details Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+	<link rel="stylesheet" type="text/css" href="css/mine.css" />
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div class="outerBlock">
+		<div id="innerBlock">
+			<form id="formBlock" method="POST">
+				<div>
+					<label>USN No: </label><br/>
+					<input type="text" name="usnno" class="boxSize" id="usn" placeholder="Enter your USN No" required="required" />
+				</div>
+				<div>
+					<label>Name: </label><br/>
+					<input type="text" name="uname" id="uname" class="boxSize" placeholder="Enter your Name" required="required" />
+				</div>
+				<div>
+					<label>DOB: </label><br/>
+					<input type="date" name="dob" class="boxSize" id="dob" />
+				</div>
+				<div>
+					<label>Department: </label><br/>
+					<select class="boxSelect" id="department">
+						<option value="" selected>Select your Department</option>
+						<option value="CS">Computer Science</option>
+						<option value="IS">Information Science</option>
+						<option value="MCA">Master of Computer Application</option>
+						<option value="Civil">Civil</option>
+					</select>
+				</div>
+				<div>
+					<label>Year: </label><br/>
+					<select class="boxSelect" id="year">
+						<option value="" selected>Select Year</option>
+						<option value="1">First Year</option>
+						<option value="2">Second Year</option>
+						<option value="3">Third Year</option>
+						<option value="4">Fourth Year</option>
+					</select>
+				</div>
+				<div>
+					<label>Mobile Number:</label><br/>
+					<input type="tel" maxlength="10" name="mobile" class="boxSize" id="mobile" placeholder="Enter Mobile Number" required="required" />
+				</div>
+				<div>
+					<label>Email ID:</label><br/>
+					<input type="email" name="mail" id="email" class="boxSize" placeholder="Enter Email ID" required="required" />
+				</div>
+				<br/><br/>
+				<div>
+					<input type="button" name="Insert" class="loginButton" value="Submit" onclick="insertNewRecord()"  />
+					<button class="loginButton" onclick="resetForm()">Reset</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

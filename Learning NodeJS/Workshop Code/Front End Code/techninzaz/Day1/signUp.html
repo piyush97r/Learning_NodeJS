@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/mine.css" />
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div class="loginBox">	
+		<div id="loginPopup">
+			<div class="SignUpBorder clearfix"> 
+				<div id="signUpleftBlock">
+					<h2>Create Account</h2>
+					<div class="signUpBottomPart">
+						<p style="color:#b5b5bd">Already have account?</p>
+						<a href="login.html" style="color:#b5b5bd">Click here to Login</a><br>
+					</div>
+				</div>
+				<div id="signUprightBlock">
+					<form id="loginForm" method="post">
+						<div class="form-group">
+							<label>Full Name</label><br><br/>
+							<input type="text" id="fullName" class="boxWidth input-sm" placeholder="Enter Full Name" required />
+						</div>
+						<div class="form-group">
+							<label> Email </label><br><br/>
+							<input type="email" class="boxWidth input-sm" id="Email" placeholder="Enter Email"  required/>
+						</div>
+						<div class="form-group">
+							<label>Contact</label><br><br/>
+							<input type="tel" class="boxWidth input-sm" id="mobile" maxlength="10" placeholder="Mobile Number"/>
+						</div>
+						<div class="form-group">
+							<label>Password</label><br/><br/>
+							<input type="password" class="boxWidth input-sm" id="userPassword" placeholder="Password" required />
+						</div>
+						<div class="form-group">
+							<label>Repeat Password</label><br/><br/>
+							<input type="password" class="boxWidth input-sm" id="repeatPassword" placeholder="Repeat Password" required/>
+						</div><br>
+						<div class="form-group">
+							<input type="button" name="Login" value="Sign Up" class="loginButton" onclick="signUp()"  />
+						</div><br/><br/>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

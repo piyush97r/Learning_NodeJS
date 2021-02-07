@@ -1,0 +1,167 @@
+body{
+	background: url('../images/headerCane.png');
+}
+.boxSize{
+	width: 204px;
+    padding: 3px;
+    border: transparent;
+}
+.boxSelect{
+	width: 208px;
+	padding: 3px;
+    border: transparent;
+}
+.outerBlock{
+	display: table;
+	vertical-align: middle;
+	margin: auto;
+}
+#innerBlock
+{
+	display: table-cell;
+	vertical-align: middle;
+	height: 98vh;
+}
+#formBlock{
+	background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */ 
+	border: 2px dotted green;
+	padding: 20px;
+	border-radius: 5px;
+}
+label{
+	padding-right: 30px;
+	font-family: monospace;
+	font-size: 15px;
+}
+
+
+/*	Login Page CSS	*/
+
+.loginBox{
+	margin-right:auto;
+	margin-left:auto;
+	width:426px;
+	height:100vh;
+	display: table;
+}
+#loginPopup {
+	display: table-cell;
+	vertical-align: middle;
+	border-radius: 15px 15px 15px 15px;
+	/*box-shadow: 0 1px 2em #221817;*/
+}
+#leftBlock {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#523333+0,261313+100 */
+	background: #523333; /* Old browsers */
+	background: -moz-linear-gradient(top,  #523333 0%, #261313 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #523333 0%,#261313 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #523333 0%,#261313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#523333', endColorstr='#261313',GradientType=0 ); /* IE6-9 */
+	float:left;
+	width: 30%;
+	height: 200px;			
+	text-align: center;
+	font-family:arial;
+	font-weight:bold;
+	color:#bb9991;
+	/*position: relative;*/
+	/*display:inline-block;*/
+	border-radius: 10px 0 0 10px;
+}
+
+#rightBlock {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5b5bd+0,4f4f54+100 */
+	background: #b5b5bd; /* Old browsers */
+	background: -moz-linear-gradient(top,  #b5b5bd 0%, #4f4f54 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #b5b5bd 0%,#4f4f54 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #b5b5bd 0%,#4f4f54 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5b5bd', endColorstr='#4f4f54',GradientType=0 ); /* IE6-9 */
+
+
+	/*position:absolute;*/			
+	float:left;
+	display:inline-block;
+	width: 70%;
+	height: 200px;
+	background-color: #cacacb; 
+	border-radius: 0 10px 10px 0;
+}
+
+#loginForm{
+	text-align:left;
+	font-family:arial;
+	color:white;
+	font-weight:bold;
+	font-size:13px;
+	padding-left:30px;
+	padding-top:20px;
+	line-height: 10px;
+}
+
+.bottomPart{
+	width:100%;
+	font-size:11px;
+	padding-top: 75px;
+}
+.loginButton {
+	color:#bb9991; font-weight:bold; background-color:		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#523333+0,261313+100 */
+	background: #523333; /* Old browsers */
+	background: -moz-linear-gradient(top,  #523333 0%, #261313 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #523333 0%,#261313 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #523333 0%,#261313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#523333', endColorstr='#261313',GradientType=0 ); /* IE6-9 */;
+
+	border:none; 
+	padding: 10px 15px 10px 15px; 
+	border-radius:5px; 
+	box-shadow: 0 3px 5px  #414141; 
+	/*position:absolute;*/
+	left:110px;
+	top:135px;
+}
+
+/*	Sign Up Pages CSS	*/
+#signUprightBlock{
+  background: #b5b5bd; /* Old browsers */
+  background: -moz-linear-gradient(top,  #b5b5bd 0%, #4f4f54 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #b5b5bd 0%,#4f4f54 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #b5b5bd 0%,#4f4f54 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5b5bd', endColorstr='#4f4f54',GradientType=0 ); /* IE6-9 */
+  position:absolute;      
+  display:inline-block;
+  width: 350px;
+  height: 320px;
+  background-color: #cacacb; /*gray*/
+  border-radius: 0 10px 10px 0;
+}
+#signUpleftBlock{
+  background: #523333; /* Old browsers */
+  background: -moz-linear-gradient(top,  #523333 0%, #261313 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #523333 0%,#261313 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #523333 0%,#261313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#523333', endColorstr='#261313',GradientType=0 ); /* IE6-9 */
+  float:left;
+  display:inline-block;
+  width: 150px;
+  height: 320px;      
+  text-align: center;
+  font-family:arial;
+  font-weight:bold;
+  color:#bb9991;
+  position: relative;
+  border-radius: 10px 0 0 10px;
+}
+.signUpBottomPart{
+  position: absolute;
+  left:0;
+  bottom:10%;
+  width:100%;
+  font-size:11px;
+  line-height:10px;
+}
+.form-group{
+	margin: 5px;
+}
